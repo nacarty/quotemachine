@@ -1,0 +1,102 @@
+<html lang="en-us"> 
+<head> 
+ <title>Carty's Portfolio Page</title> 
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <!--The following two are for W3 CSS and the associated fa icons --> 
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<script src="https://use.fontawesome.com/14c67ebfb3.js"></script> 
+
+<!-- Latest compiled and minified CSS --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> 
+
+  <!-- Optional theme --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> 
+<!-- Latest compiled and minified JavaScript --> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js">
+  </script> 
+
+ <style>
+body
+{
+  background-color:rgb(200,128,128);
+}
+   
+   #firstDiv
+   {
+     background-color:white;
+     margin:150px auto 0px;
+     width:425px;
+     border:8px;
+     border-radius:12px;
+     padding:24px;
+     text-align:justify;
+     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+     font-size:24px;
+     font-weight: bold;
+   }
+   #myQuote:hover
+   { 
+     color:black;
+     font-size:26px;
+     font-family: "Book Antiqua";
+     background-color:black;    
+     border-radius:12px;
+     
+   }
+   
+   .Button {
+    background-color:rgb(200,128,128);
+    border: none;
+     border-radius:12px;
+     padding:12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+   
+   #quoteBtn {
+    float:right;
+     width:80px;
+    }
+   
+   #myPerson
+   {
+     text-align:right;
+   }
+   #twitter{
+     font-size:24px;
+     width:50px;
+     padding:10px 5px 14px 5px;
+   }
+   #email{
+     font-size:24px;
+     width:50px;
+   }
+   q {
+     quotes: "«" "»";
+    } 
+</style> 
+  
+</head> 
+
+  <body id = "myBody">
+    <div id="firstDiv">
+      <p id = "myQuote">This application will randomly generate some illuminating quotes. Just click on the button at bottom right...</p>
+      <p id = "myPerson"> Application Developer </p>
+  
+      <div> 
+        <a id="twitter" href="#" target="_blank" class="Button fa fa-twitter" ></a>
+        <a id="email" href="mailto:" target="_blank" class="Button fa fa-envelope"></a>
+        <button id="quoteBtn" class="Button" onclick="getQuote()"><span class="glyphicon glyphicon-random"></span></button>
+
+      </div>
+    </div>
+    
+  </body>
+  
+ </html>

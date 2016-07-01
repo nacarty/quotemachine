@@ -1,0 +1,7 @@
+Random Quote Machine
+--------------------
+This simple application generates a number of meaningful quotes from politicians, scientists, educators, philosophers and the like. They are randomly displayed.
+
+A [Pen](https://codepen.io/nacarty/pen/LkyWWW) by [Nigel Carty](http://codepen.io/nacarty) on [CodePen](http://codepen.io/).
+
+[License](https://codepen.io/nacarty/pen/LkyWWW/license).
